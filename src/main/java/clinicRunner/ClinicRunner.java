@@ -26,6 +26,5 @@ public class ClinicRunner {
         humanClinic.takeInPatient(daniMocanu);
         System.out.println("++++++");
         humanClinic.listPatients();
-
     }
 }

@@ -12,13 +12,6 @@ public abstract class AbstractClinic {
     }
 
     protected AbstractPatient[] currentPatients;
-    protected int[] numbers;
-    protected String[] strings;
-    List<String> myArray = new ArrayList<>();
-    List<Integer> array2 = new ArrayList<>();
-
-    // k : int, v: AbstractPatient
-    Map<Integer, AbstractPatient> clinic = new HashMap<>();
 
     public abstract void takeInPatient(AbstractPatient newPatient);
 
